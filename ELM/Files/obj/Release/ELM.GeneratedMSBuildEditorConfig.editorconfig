@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = ELM
+build_property.ProjectDir = C:\creatio-dev\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\ELM\Files\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

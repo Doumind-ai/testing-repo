@@ -1,0 +1,22 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/ELM/Schemas/Case/Case.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/Case/Case.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/Contact/Contact.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/Contact/Contact.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/KnowledgeBase/KnowledgeBase.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/KnowledgeBase/KnowledgeBase.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrCallType/UsrCallType.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrCallType/UsrCallType.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrCaseCategory/UsrCaseCategory.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrCaseCategory/UsrCaseCategory.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/Usrhaveproperty/Usrhaveproperty.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/Usrhaveproperty/Usrhaveproperty.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrKnowladgeBaseCategory/UsrKnowladgeBaseCategory.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrKnowladgeBaseCategory/UsrKnowladgeBaseCategory.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrMaritalStatus/UsrMaritalStatus.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrMaritalStatus/UsrMaritalStatus.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrNationality/UsrNationality.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrNationality/UsrNationality.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrNumberofContactAttempts/UsrNumberofContactAttempts.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrNumberofContactAttempts/UsrNumberofContactAttempts.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrPropertycategory/UsrPropertycategory.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrPropertycategory/UsrPropertycategory.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrPropertyStatus/UsrPropertyStatus.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrPropertyStatus/UsrPropertyStatus.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrPropertytype/UsrPropertytype.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrPropertytype/UsrPropertytype.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrRealEstateTerminology/UsrRealEstateTerminology.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrRealEstateTerminology/UsrRealEstateTerminology.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrReligion/UsrReligion.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrReligion/UsrReligion.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrSegmentType/UsrSegmentType.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrSegmentType/UsrSegmentType.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrSLAStatus/UsrSLAStatus.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrSLAStatus/UsrSLAStatus.cs')" />
+		<Compile Include="$(PkgPath)/ELM/Schemas/UsrSubCategory/UsrSubCategory.cs" Condition="Exists('$(PkgPath)/ELM/Schemas/UsrSubCategory/UsrSubCategory.cs')" />
+	</ItemGroup>
+</Project>
