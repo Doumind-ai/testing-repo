@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ELM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("8.3.1.4498")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.3.1.4498")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.3.1.4498+b622653377079cc5fdd3704c94a74334b30d8415")]
 [assembly: System.Reflection.AssemblyProductAttribute("ELM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ELM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.3.1.4498")]

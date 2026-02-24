@@ -25,3 +25,4 @@ C:\creatio-dev\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\ELM\Files\obj\Releas
 C:\creatio-dev\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\ELM\Files\obj\Release\ELM.csproj.CoreCompileInputs.cache
 C:\creatio-dev\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\ELM\Files\obj\Release\ELM.dll
 C:\creatio-dev\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\ELM\Files\obj\Release\ELM.pdb
+C:\creatio-dev\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\ELM\Files\obj\Release\ELM.sourcelink.json
